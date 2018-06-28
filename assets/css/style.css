@@ -1,0 +1,20 @@
+.jumbotron {
+    margin-bottom: 0px;
+    background-color: #e6f3ff;
+  }
+  .text-center{
+      color:maroon;
+      font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+      font-style: oblique;
+  }
+  
+  body {
+      font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+      background: url("../images/background.jpg");
+  }
+
+  ul{
+      font-weight:bold;
+
+  }
+    
