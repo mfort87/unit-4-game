@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collector Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="assets/javascript/game.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="jumbotron">
+        <h1 class="text-center">Crystals Collector!</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h2 class="panel-title">Rules of the Game</h2>
+                    </div>
+                    <div class ="panel-body">
+                        <ul>
+                            <li>You will be given a random number at the start of the game.</li>
+                            <li>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</li>
+                            <li>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</li>
+                            <li>The value of each crystal is hidden from you until you click on it.</li>
+                            <li>Each time when the game starts, the game will change the values of each cristal.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="panel panel-danger">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">The Crystals</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class = "panel-body">
+                            <div class = "row">
+                                <div class = "col-sm-6 col-md-3">
+                                    <div class = "thumbnail">
+                                        <img id="blue" src="assets/images/bluecrystal.jpg" alt="blue">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class= "col-sm-6 col-md-3">
+                                <div class= "thumbnail">
+                                    <img id= "rainbow" src="assets/images/rainbow.jpg" alt= "rainbow">
+                                </div>
+                            </div>
+                            <div class= "col-sm-6 col-md-3">
+                                <div class= "thumbnail">
+                                    <img id= "white" src="assets/images/whitecrystal.jpg" alt= "white">
+                                </div>
+                            </div>
+                            <div class= "col-sm-6 col-md-3">
+                                <div class= "thumbnail">
+                                    <img id= "yellow" src= "assets/images/yellowcrystal.jpg" alt- "yellow">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
